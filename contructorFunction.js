@@ -16,3 +16,4 @@ function Notebook(marca,modelo,processador,memoria,bateria,placaDeVideo) {
 const notebook = new Notebook('Dell','d1000','Core i5', 8, 10000, 'Rtx2060')
 
 console.log(notebook);
+notebook.ligar()
