@@ -14,7 +14,7 @@ numeros.shift()
 
 console.log(numeros);
 
-//Removendo no meio de um array
+//Removendo no meio de um array.
 
 numeros.splice(2,2)
 console.log(numeros);
