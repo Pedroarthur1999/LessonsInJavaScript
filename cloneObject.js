@@ -5,6 +5,7 @@ const mouse = {
     cor: "preto"
 }
 delete mouse.cor
+    
 //assign == atribuição
 
 const novoMouse = Object.assign({
@@ -14,7 +15,7 @@ const novoMouse = Object.assign({
 
 // Tambem pode ser feito assim
 
-const mouseDois = {...mouse}
+const mouseDois = { ...mouse }
 
 console.log(mouseDois);
 console.log(novoMouse);
